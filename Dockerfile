@@ -1,7 +1,6 @@
 FROM ppatrick/gosu
 
-MAINTAINER="Patrick Pedrioli"
-LABEL Description="A container the comet search engine" Version="2019015"
+LABEL maintainer="Patrick Pedrioli" description="A container the comet search engine" version="2019015"
 
 ## Let apt-get know we are running in noninteractive mode
 ENV DEBIAN_FRONTEND noninteractive
