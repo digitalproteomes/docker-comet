@@ -1,4 +1,4 @@
-FROM ppatrick/gosu
+FROM digitalproteomes/gosu
 
 LABEL maintainer="Patrick Pedrioli" description="A container the comet search engine" version="2019015"
 
