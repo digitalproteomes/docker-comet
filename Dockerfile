@@ -14,5 +14,6 @@ RUN apt-get update \
     && unzip /tmp/Comet/comet.zip -d /tmp/Comet \
     && chmod 755 /tmp/Comet/*.linux.exe \
     && cp /tmp/Comet/*.linux.exe /usr/local/bin \
+    && ln *.linux.exe comet \
     && rm -rf /tmp/Comet \
     && rm -rf /var/lib/apt/lists/*
